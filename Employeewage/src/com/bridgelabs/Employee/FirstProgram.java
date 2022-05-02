@@ -24,7 +24,17 @@ public class FirstProgram
     	            int DailyEmpWage=Wageperhour*Fulldayhour*Month;
     	                    System.out.println("Employee Daily Wage is " +  DailyEmpWage);
       }
-    	        
+    	        else if(Empcheck == is_Parttime)
+    	        {
+    	            System.out.println("Employee is  Part time Present");
+    	            int ParttimeEmpWage=Wageperhour*Parttimehour*Month;
+    	            System.out.println("Employee Parttime Wage is " + ParttimeEmpWage);
+    	        }
+    	        else
+    	        {
+    	            System.out.println("Employee is absent");
+    	            System.out.println("Employee Monthly Wage is Zero");
+    	        }
     	        
                   }
 }
