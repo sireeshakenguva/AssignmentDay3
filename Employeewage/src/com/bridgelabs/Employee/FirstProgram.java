@@ -49,8 +49,9 @@ public class FirstProgram
     	            int ParttimeEmpWage=Wageperhour*Parttimehour*Month;
     	            System.out.println("Employee Parttime Wage is " + ParttimeEmpWage);
     	            break;
-    	              default : System.out.println("Employee is absent");
+    	              case 3: System.out.println("Employee is absent");
     	           System.out.println("Employee Monthly Wage is Zero");
     	           }
+                   System.out.println("Total EmpWage: " + total Emp Wage
                   }
-}
+  }
