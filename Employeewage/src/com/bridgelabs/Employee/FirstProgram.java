@@ -52,6 +52,8 @@ public class FirstProgram
     	              default : System.out.println("Employee is absent");
     	           System.out.println("Employee Monthly Wage is Zero");
     	           }
+                   System.out.println("Total EmpWage: " + total Emp Wage);
+        
     	           for(int i=1;i<=20;i++)
     	           {
     	               int DailyEmpWage = Wageperhour * Fulldayhour * Month*i;
