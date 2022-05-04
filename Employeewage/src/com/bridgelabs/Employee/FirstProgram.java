@@ -52,6 +52,6 @@ public class FirstProgram
     	              case 3: System.out.println("Employee is absent");
     	           System.out.println("Employee Monthly Wage is Zero");
     	           }
-                   System.out.println("Total EmpWage: " + total Emp Wage
+                   System.out.println("Total EmpWage: " + total Emp Wage);
                   }
   }
